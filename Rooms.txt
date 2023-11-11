@@ -1,0 +1,14 @@
+
+ 
+Room1 = Areas('Room1',0,0,'It\'s a room',False)
+Location_List.append(Room1) 
+Room1.actions = {}
+ 
+AddExit("north", "Room2", Room1)   
+ 
+Room2 = Areas('Room2',0,1,'It\'s another room',False)
+Location_List.append(Room2) 
+Room2.actions = {}
+    
+AddExit("south", "Room1", Room2)
+ 
